@@ -18,3 +18,20 @@ Unable to find image 'ubuntu:latest' locally
 ▶ docker container run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=mongouser -e MONGO_INITDB_ROOT_PASSWORD=mongopwd mongo
 Unable to find image 'mongo:latest' locally
 
+▶ docker container inspect 11ea996d3cdf
+
+▶ docker container exec -it 11ea996d3cdf /bin/bash
+
+▶ docker container stop
+
+▶ docker container start
+
+▶ docker container logs 11ea996d3cdf
+
+▶ docker container logs -n 5  11ea996d
+
+▶ docker container logs -f  11ea996d
+
+▶ docker container logs -t  11ea996d
+
+
