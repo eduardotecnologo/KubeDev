@@ -34,4 +34,27 @@ Unable to find image 'mongo:latest' locally
 
 ▶ docker container logs -t  11ea996d
 
+▶ docker commit 389e0027e735 ubuntu-curl
+
+▶ docker image history ubuntu-curl
+
+▶ docker image ls prune
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
